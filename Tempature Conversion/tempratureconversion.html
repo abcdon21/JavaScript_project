@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>TEMPRATURE CONVERSION PROGRAM</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='tempratureconversion.css'>
+    
+</head>
+<body>
+<FORM>
+    <h1>TEMPRATURE CONVERSION: </h1>
+
+    <input type="number" id="textbox" value="0"><br><br>
+    <input type="radio" id="tofah" name="unit">
+    <label for="tofah">celsius→fahrenheit</label><br><br>
+    <input type="radio" id="tocel" name="unit">
+    <label for="tocel">fahrenheit→celsius</label><br><br>
+    
+    <button type="button" onclick="convert()">submit</button>
+    <p id="result"></p>
+</FORM>
+
+
+    <script src='tempratureconversion.js'></script>
+</body>
+</html>

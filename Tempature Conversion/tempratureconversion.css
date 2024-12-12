@@ -1,0 +1,48 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    background-color: deeppink;
+}
+h1{
+    color: pink;
+}
+form{
+    background-color: #f875a0;
+    max-width: 350px;
+    margin: auto;
+    padding: 25px 25px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px white;
+}
+#textbox{
+    width: 50%;
+    text-align: center;
+    font-size: 2em;
+    border:2px solid pink;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+label
+{
+    font-size: 1.5em;
+    font-weight: bold;
+    color: pink;
+}
+button{
+    margin-top: 20px;
+    background-color: white;
+    color:deeppink;
+    font-size: 1em;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: pink;
+}
+
+#result{
+    color: white;
+font-weight: bold;
+}
