@@ -1,0 +1,57 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:#f8ad9d ;
+}
+#myh1{
+    font-size: 4rem;
+    color: #880d1e;
+}
+#conatiner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 5px solid;
+    border-radius: 50px; 
+    padding: 30px;
+    background-color:#f4978e ;
+}
+#display{
+    font-size: 5rem;
+    font-weight: bold;
+color:#880d1e ;
+text-shadow: 2px 2px 2px;
+margin-bottom: 25px;
+
+}
+#controls button{
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin: 5px;
+    min-width: 100px;
+    border: none;
+    border-radius: 10px;
+    color:white ;
+    cursor: pointer;
+    transition: background-color 0.5s ease-in-out;
+}
+#startBtn{
+    background-color: rgb(127, 233, 117);
+}
+#startBtn:hover{
+    background-color: greenyellow ;
+}
+#stopBtn{
+    background-color: rgb(255, 8, 8);
+}
+#stopBtn:hover{
+    background-color: rgb(148, 31, 31) ;
+}
+#resetBtn{
+    background-color: rgb(1, 13, 255);
+}
+#resetBtn:hover{
+    background-color: rgb(24, 23, 86) ;
+}

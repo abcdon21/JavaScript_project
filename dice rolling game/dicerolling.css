@@ -1,0 +1,37 @@
+body{ background-color: #c7dff5;
+color: #41a0f9;}
+
+#container{
+    text-align:center;
+    font-family:cursive ;
+    font-size: 2rem;
+    font-weight: bold;
+
+}
+button{
+    font-size: 1.5rem;
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: none;
+    background-color:#a2d2ff ;
+    color: white;
+    font-weight: bold;
+}
+button:hover{
+    background-color: #65abed;
+}
+button:active{
+    background-color: #6bb5fb;
+}
+input{
+    font-size: 2rem;
+    text-align: center;
+    width: 150px;
+    font-weight: bold;
+    color:#ffc8dd ;
+    border: none;
+}
+#diceImages{
+  
+    margin: 1px;
+}

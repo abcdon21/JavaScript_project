@@ -1,0 +1,21 @@
+body{ 
+    margin: 2;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJ4qImFYGUOJkAIxCCxzDLvdLI-e15GawBiA&s");
+     background-position: center;
+    background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
+#clock-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+    height: 90vh;
+
+}
+
+#clock{
+    color: #03045e;
+    backdrop-filter: blur(25px);
+}
