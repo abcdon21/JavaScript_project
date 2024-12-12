@@ -1,0 +1,49 @@
+body{
+    font-weight: bold;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:#cfe8fd;
+}
+h1{
+    font-size: 2.5rem;
+    color: #cdb4db;
+}
+.choices{
+    margin-bottom: 30px;
+}
+.choices button{
+    font-size: 7.5rem;
+    min-width: 100px;
+    margin-right: 10px ;
+    margin-left: 2px;
+    border-radius: 220px;
+    background-color:#ffc8dd ;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.5s ease-in-out;
+}
+.choices button:hover{
+    background-color: #f95191;
+}
+#playerOfDisplay, #computerOfDisplay{
+    font-size: 2.5rem;
+    color:#103668;
+}
+#resultOfDisplay{
+    font-size: 5rem;
+    margin: 40px 0;
+    /* color: #f95191; */
+}
+.greenText,#playerscore{
+
+    color: rgb(62, 203, 62);
+}
+.redText,#computerscore{
+    color: rgb(169, 6, 6);
+}
+.pinktext{
+    color: #ea9cba;
+}
+
